@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>One Pager Website</title>
+</head>
+
+<body>
+<h1 class="text-center">Welcome to our form:</h1>
+
+<div class='container'>
+    <form onsubmit='return false'>
+        <div class='form-group'> <label for='TextBox'>First name & Surname</label> <input type='text' class='form-control' id='TextBox' placeholder='Name & Surname' aria-describedby='shortDesc'>
+            <small id='shortDesc' class='form-text'>Insert name for personalized messages!</small> </div>
+        <div class='form-group'> <label for='exampleFormControlSelect1'>Select quantity</label>
+            <select class='form-control' id='exampleFormControlSelect1'> <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option> </select>
+        </div>
+        <div class='form-group'> <label for='exampleFormControlSelect2'>Colour select</label>
+            <select multiple class='form-control' id='exampleFormControlSelect2'> <option>Blue</option> <option>Pink</option> <option>Green</option> <option>Yellow</option> <option>Purple</option> </select>
+        </div>
+        <div class='form-group'> <label for='exampleFormControlFile1'>Insert file</label> <input type='file' class='form-control-file' id='exampleFormControlFile1'>
+        </div>
+        <div class='form-group'> <label for='exampleFormControlTextarea1'>Message Us!</label>
+            <textarea class='form-control' id='exampleFormControlTextarea1' rows='3'></textarea> </div>
+        <div class='form-group'> <label for='exampleFormControlFile1'>Contact Number</label> <input class='form-control form-control-lg' type='number' placeholder='0000000000'>
+        </div>
+        <div class='form-group'> <label for='exampleFormControlFile1'>Personalize</label> <input class='form-control' type='text' placeholder='Default input'>
+        </div>
+        <div class='form-group'> <label for='exampleFormControlFile1'>Please Submit Here.</label> 
+        </div><button type='submit' class='btn btn-outline-info'>Submit</button>
+    </form>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

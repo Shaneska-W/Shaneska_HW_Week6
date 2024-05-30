@@ -1,0 +1,19 @@
+.container {
+    align-items: center;
+    padding: 30px;
+    flex: row;
+}
+
+.container {
+    background-image: url(/assets/Website-Design-Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-group ,.form-text {
+    color: ghostwhite;
+}
+
+
