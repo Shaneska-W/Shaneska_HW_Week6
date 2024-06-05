@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-image: url(/assets/Website-Design-Background.jpg);
+    background-image: url(../assets/Website-Design-Background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,3 +17,69 @@
 }
 
 
+body{
+    background-color: #ab6cf7;
+ }
+ .stepper-input {   
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+    padding: 30px;
+   }
+ 
+   .stepper-input input{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+     font-size:  25px;
+   }
+    
+ .btn{
+    cursor: pointer;
+    padding: 1.5em;
+    color: #fff;
+    background-color: #6500a4;
+    border: 1px solid #00a496;
+    font-size: 20px;
+ }
+ 
+ .btn:hover{
+    background-color: #7b7b7b;
+    color: #121212;
+    
+   }
+ 
+ .btn-left {  
+    border-radius: 10px 0 0 10px;
+ }
+ 
+ .btn-right{
+    border-radius: 0 10px 10px 0 ;
+ }
+ 
+ .input-box {
+    border: 1px solid #121212;
+    text-align: center;
+ }
+ 
+ .ticketSection {
+   border: 1px solid #00434663;
+   height: 380px;
+   width: 70%;
+   padding: 20px;
+   margin: auto;
+   margin-top: 5em;
+   border-radius: 1em;
+   box-shadow: 0px 3px 15px rgba(253, 254, 255, 0.589);
+ }
+ 
+ .ticketSection p {
+   border: none;
+   border-radius: 15px;
+   padding: 24px;
+   margin: 10px;
+   font-size: 40px;
+   text-align: center;
+   background: transparent;
+   color: #fff;
+   box-shadow: 0px 3px 15px rgba(253, 254, 255, 0.589);
+ }
